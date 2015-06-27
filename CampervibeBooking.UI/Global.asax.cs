@@ -8,7 +8,6 @@ using System.Web.Routing;
 using System.Web.Optimization;
 using CampervibeBooking.UI.App_Start;
 using System.Data.Entity;
-using CampervibeBooking.UI.Models;
 
 namespace CampervibeBooking.UI
 {
