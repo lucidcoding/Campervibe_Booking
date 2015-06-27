@@ -1,0 +1,2 @@
+C:\Code\Campervibe_Booking\CampervibeBooking.External.UI\obj\Debug\CampervibeBooking.External.UI.csproj.App.config
+C:\Code\Campervibe_Booking\CampervibeBooking.External.UI\obj\Debug\CampervibeBooking.External.UI.csprojResolveAssemblyReference.cache

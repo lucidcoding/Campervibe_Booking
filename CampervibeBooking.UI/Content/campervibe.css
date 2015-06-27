@@ -1,0 +1,85 @@
+﻿@media (min-width: 780px) {
+  .container-fluid {
+    width: 780px;
+    }
+}
+
+.navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+/* Doesn't work in Firefox */
+
+/*.date-picker-container 
+{
+    margin-bottom: -15px;
+}
+
+.date-picker-container > div 
+{
+    padding-bottom: 15px;
+}*/
+
+legend.control-label {
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 0px;
+    margin-bottom:5px;
+}
+
+/* Validation Errors */
+
+.field-validation-error
+{
+	color: #ff0000;
+}
+
+.field-validation-valid
+{
+	display: none;
+}
+
+.input-validation-error
+{
+	border: 1px solid #ff0000;
+	background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+	color: #ff0000;
+}
+
+.validation-summary-errors h2
+{
+    font-size: large;
+}
+
+.validation-summary-errors a
+{
+	color: inherit;
+    text-decoration: underline;
+}
+
+.validation-summary-valid
+{
+	display: none;
+}
+
+.campervibe .form-horizontal .control-label
+{
+    text-align: left;
+}
+
+body 
+{
+    font-family:  Roboto, Optima, Arial;
+}
+
+h1
+{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #FF6314;
+    margin-bottom: 30px;
+    font-weight: bold;
+}

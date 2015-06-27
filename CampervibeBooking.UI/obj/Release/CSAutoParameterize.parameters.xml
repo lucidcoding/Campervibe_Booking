@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Campervibe-Web.config Connection String" description="Campervibe Connection String used in web.config by the application to access the database." defaultValue="Data Source=localhost;Initial Catalog=Campervibe;integrated security=true;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Code\\Campervibe\\Campervibe\\Campervibe\.External\.UI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Campervibe']/@connectionString" />
+  </parameter>
+  <parameter name="Campervibe.Data.Core.Context-Web.config Connection String" description="Campervibe.Data.Core.Context Connection String used in web.config by the application to access the database." defaultValue="Campervibe.Data.Core.Context_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Code\\Campervibe\\Campervibe\\Campervibe\.External\.UI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Campervibe.Data.Core.Context']/@connectionString" />
+  </parameter>
+</parameters>

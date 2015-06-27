@@ -1,0 +1,43 @@
+﻿@using System.Data.Entity.Core.Objects
+@using Campervibe.Internal.UI.Extensions
+@model Campervibe.Internal.UI.ViewModels.Account.LoginViewModel
+
+@{
+    ViewBag.Title = "SignIn";
+}
+
+<h1>Sign In</h1>
+
+@using (Html.BeginForm("Login", "Account", new { returnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form", @class = "form-horizontal" })) 
+{
+    @Html.AntiForgeryToken()
+    @Html.Partial("_ValidationSummary", Html.ViewData.ModelState)
+    <div class="form-group">
+        @Html.LabelFor(model => model.Username, new { @class = "control-label col-sm-3" })
+        <div class="col-sm-6">
+            @Html.ValidationMessageFor(model => model.Username)
+            @Html.TextBoxFor(model => model.Username, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Password, new { @class = "control-label col-sm-3" })
+        <div class="col-sm-6">
+            @Html.ValidationMessageFor(model => model.Password)
+            @Html.TextBoxFor(model => model.Password, new { @class = "form-control", type = "password" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-3 col-sm-6">
+            @using (Html.BeginLabelFor(model => model.RememberMe, null))
+            {
+                @Html.CheckBoxFor(model => model.RememberMe)
+            }
+        </div>
+    </div>
+    <div class="form-group">        
+        <div class="col-sm-offset-3 col-sm-9">
+            <button type="submit" class="btn btn-success">Submit</button>
+            @Html.ActionLink("Cancel", "Index", null, new { @class = "btn btn-primary" })
+        </div>
+    </div>
+}

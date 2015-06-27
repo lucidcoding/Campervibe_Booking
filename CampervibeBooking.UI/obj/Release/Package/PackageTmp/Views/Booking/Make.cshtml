@@ -1,0 +1,57 @@
+﻿@using System.Data.Entity.Core.Objects
+@using Campervibe.External.UI.Extensions
+@model Campervibe.External.UI.ViewModels.Booking.MakeViewModel
+
+@{
+    ViewBag.Title = "Book a Vehicle";
+}
+
+<h1>Book a Vehicle</h1>
+
+@using (Html.BeginForm("Make", "Booking", FormMethod.Post, new { role = "form", @class = "form-horizontal" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.Partial("_ValidationSummary", Html.ViewData.ModelState)
+    <div class="form-group">
+        @Html.LabelFor(model => model.VehicleId, new { @class = "control-label col-sm-3" })
+        <div class="col-sm-6">
+            @Html.ValidationMessageFor(model => model.VehicleId)
+            @Html.DropDownListFor(model => model.VehicleId, Model.VehicleOptions, new { @class = "form-control" })
+        </div>
+    </div>
+    <div id="pendingBookingsForVehicleDiv">
+        @if (Model.PendingBookings.Any())
+        {
+            @Html.Partial("_PendingForVehicle", Model.PendingBookings)
+        }
+    </div>
+    <fieldset class="form-group">        
+        <legend class="control-label col-sm-3">
+            @Html.NameFor(model => model.StartDate)
+        </legend>
+        <div class="col-sm-6">
+            @Html.ValidationMessageFor(model => model.StartDate)
+            @Html.BootstrapDatePickerFor(model => model.StartDate)
+        </div>
+    </fieldset>
+    <fieldset class="form-group">
+        <legend class="control-label col-sm-3">
+            @Html.NameFor(model => model.EndDate)
+        </legend>
+        <div class="col-sm-6">
+            @Html.ValidationMessageFor(model => model.EndDate)
+            @Html.BootstrapDatePickerFor(model => model.EndDate)
+        </div>
+    </fieldset>
+    <div class="form-group">        
+        <div class="col-sm-offset-3 col-sm-9">
+            <button type="submit" class="btn btn-success">Submit</button>
+            @Html.ActionLink("Cancel", "Index", null, new { @class = "btn btn-primary" })
+        </div>
+    </div>
+}
+
+@section Scripts
+{
+    @Scripts.Render("~/bundles/Booking/Make")
+}

@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampervibeBooking.UI", "CampervibeBooking.UI\CampervibeBooking.UI.csproj", "{7F145E2A-D471-42C0-8CA1-87C11383234F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampervibeBooking.Domain", "CampervibeBooking.Domain\CampervibeBooking.Domain.csproj", "{DD7142B6-4F33-4E1B-AC43-BDDEE64EE769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampervibeBooking.Data", "CampervibeBooking.Data\CampervibeBooking.Data.csproj", "{EF7685F4-4976-45EF-B71F-053C8771613B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampervibeBooking.IntegrationTest", "CampervibeBooking.IntegrationTest\CampervibeBooking.IntegrationTest.csproj", "{0E8928CC-AE44-4EAC-8731-090BED80F46A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E41AFDB5-F088-44E2-B42E-57021AEED927}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Marathon.vsmdi = Marathon.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampervibeBooking.Domain.UnitTests", "CampervibeBooking.Domain.UnitTests\CampervibeBooking.Domain.UnitTests.csproj", "{DDA7901B-FE32-4368-94D3-A302056322FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Campervibe.Internal.UI", "CampervibeBooking.Internal.UI\Campervibe.Internal.UI.csproj", "{116BBC29-B8B3-4D7D-BA93-C032ADA3D91D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Campervibe.WebJob", "CampervibeBooking.WebJob\Campervibe.WebJob.csproj", "{72603C7B-644B-491B-81EA-2842E7D6A7BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F145E2A-D471-42C0-8CA1-87C11383234F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F145E2A-D471-42C0-8CA1-87C11383234F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F145E2A-D471-42C0-8CA1-87C11383234F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F145E2A-D471-42C0-8CA1-87C11383234F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7142B6-4F33-4E1B-AC43-BDDEE64EE769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7142B6-4F33-4E1B-AC43-BDDEE64EE769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7142B6-4F33-4E1B-AC43-BDDEE64EE769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7142B6-4F33-4E1B-AC43-BDDEE64EE769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF7685F4-4976-45EF-B71F-053C8771613B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7685F4-4976-45EF-B71F-053C8771613B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7685F4-4976-45EF-B71F-053C8771613B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7685F4-4976-45EF-B71F-053C8771613B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8928CC-AE44-4EAC-8731-090BED80F46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8928CC-AE44-4EAC-8731-090BED80F46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8928CC-AE44-4EAC-8731-090BED80F46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8928CC-AE44-4EAC-8731-090BED80F46A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDA7901B-FE32-4368-94D3-A302056322FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDA7901B-FE32-4368-94D3-A302056322FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDA7901B-FE32-4368-94D3-A302056322FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDA7901B-FE32-4368-94D3-A302056322FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{116BBC29-B8B3-4D7D-BA93-C032ADA3D91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116BBC29-B8B3-4D7D-BA93-C032ADA3D91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116BBC29-B8B3-4D7D-BA93-C032ADA3D91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116BBC29-B8B3-4D7D-BA93-C032ADA3D91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72603C7B-644B-491B-81EA-2842E7D6A7BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72603C7B-644B-491B-81EA-2842E7D6A7BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72603C7B-644B-491B-81EA-2842E7D6A7BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72603C7B-644B-491B-81EA-2842E7D6A7BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Marathon.vsmdi
+	EndGlobalSection
+EndGlobal

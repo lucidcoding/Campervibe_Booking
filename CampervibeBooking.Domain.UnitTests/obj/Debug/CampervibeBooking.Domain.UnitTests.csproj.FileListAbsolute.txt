@@ -1,0 +1,9 @@
+C:\Code\Campervibe_Booking\CampervibeBooking.Domain.UnitTests\obj\Debug\CampervibeBooking.Domain.UnitTests.csprojResolveAssemblyReference.cache
+C:\Code\Campervibe_Booking\CampervibeBooking.Domain.UnitTests\bin\Debug\CampervibeBooking.Domain.UnitTests.dll
+C:\Code\Campervibe_Booking\CampervibeBooking.Domain.UnitTests\bin\Debug\CampervibeBooking.Domain.UnitTests.pdb
+C:\Code\Campervibe_Booking\CampervibeBooking.Domain.UnitTests\bin\Debug\CampervibeBooking.Domain.dll
+C:\Code\Campervibe_Booking\CampervibeBooking.Domain.UnitTests\bin\Debug\Moq.dll
+C:\Code\Campervibe_Booking\CampervibeBooking.Domain.UnitTests\bin\Debug\CampervibeBooking.Domain.pdb
+C:\Code\Campervibe_Booking\CampervibeBooking.Domain.UnitTests\bin\Debug\Moq.xml
+C:\Code\Campervibe_Booking\CampervibeBooking.Domain.UnitTests\obj\Debug\CampervibeBooking.Domain.UnitTests.dll
+C:\Code\Campervibe_Booking\CampervibeBooking.Domain.UnitTests\obj\Debug\CampervibeBooking.Domain.UnitTests.pdb
