@@ -44,5 +44,5 @@ Temporary Items
 
 # Files containing sensitive information.
 Connections.config
-#*.pubxml
-#*.pubxml.user
+*.pubxml
+*.pubxml.user
