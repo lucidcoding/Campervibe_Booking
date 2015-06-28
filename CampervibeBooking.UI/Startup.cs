@@ -15,15 +15,14 @@ namespace CampervibeBooking.UI
 
         public void ConfigureAuth(IAppBuilder app)
         {
-
-            //app.SetDefaultSignInAsAuthenticationType(CookieAuthenticationDefaults.AuthenticationType);
-            //app.UseCookieAuthentication(new CookieAuthenticationOptions());
-            //app.UseOpenIdConnectAuthentication(
-            //    new OpenIdConnectAuthenticationOptions
-            //    {
-            //        ClientId = "a54372b5-7c28-47b3-ae9f-9972ba3b42f5",
-            //        Authority = "https://login.windows.net/paultdhotmail.onmicrosoft.com"
-            //    });
+            app.SetDefaultSignInAsAuthenticationType(CookieAuthenticationDefaults.AuthenticationType);
+            app.UseCookieAuthentication(new CookieAuthenticationOptions());
+            app.UseOpenIdConnectAuthentication(
+                new OpenIdConnectAuthenticationOptions
+                {
+                    ClientId = "f9c75c65-f4cf-4bff-9c3c-630c624ae933",
+                    Authority = "https://login.windows.net/paultdhotmail.onmicrosoft.com"
+                });
         }
     }
 }

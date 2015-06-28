@@ -40,8 +40,8 @@ namespace CampervibeBooking.UI.Controllers
         }
 
         [EntityFrameworkReadContext]
-        [AuthorizePermission("MakeBooking")]
-        [Log]
+        //[AuthorizePermission("MakeBooking")]
+        //[Log]
         public ActionResult Make()
         {
             var viewModel = _makeViewModelMapper.New();
@@ -49,8 +49,8 @@ namespace CampervibeBooking.UI.Controllers
         }
 
         [EntityFrameworkReadContext]
-        [AuthorizePermission("MakeBooking")]
-        [Log]
+        //[AuthorizePermission("MakeBooking")]
+        //[Log]
         public PartialViewResult GetPendingForVehicle(Guid vehicleId)
         {
             var viewModel = _getPendingForVehicleViewModelMapper.Map(vehicleId);
@@ -59,9 +59,9 @@ namespace CampervibeBooking.UI.Controllers
 
         [HttpPost]
         [EntityFrameworkWriteContext]
-        [AuthorizePermission("MakeBooking")]
-        [Log]
-        [ValidateAntiForgeryToken]
+        //[AuthorizePermission("MakeBooking")]
+        //[Log]
+        //[ValidateAntiForgeryToken]
         public ActionResult Make(MakeViewModel viewModel)
         {
             var request = _makeViewModelMapper.Map(viewModel);
@@ -79,8 +79,8 @@ namespace CampervibeBooking.UI.Controllers
             return RedirectToAction("MakeSuccess");
         }
 
-        [AuthorizePermission("MakeBooking")]
-        [Log]
+        //[AuthorizePermission("MakeBooking")]
+        //[Log]
         public ActionResult MakeSuccess()
         {
             return View();
