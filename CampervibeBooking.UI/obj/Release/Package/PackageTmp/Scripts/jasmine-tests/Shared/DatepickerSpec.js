@@ -26,17 +26,17 @@ function cleardownHtmlFixture() {
 
 describe("Shared.Datepicker.calculateFormattedDate", function () {
     it("should be able to calculate a date when all elements supplied", function () {
-        var formattedDate = Campervibe.Shared.Datepicker.calculateFormattedDate(10, 5, 2015);
+        var formattedDate = CampervibeBooking.Shared.Datepicker.calculateFormattedDate(10, 5, 2015);
         expect(formattedDate).toEqual("2015-05-10");
     });
 
     it("should be empty if any elements are not supplied", function () {
-        var formattedDate = Campervibe.Shared.Datepicker.calculateFormattedDate(null, 5, 2015);
+        var formattedDate = CampervibeBooking.Shared.Datepicker.calculateFormattedDate(null, 5, 2015);
         expect(formattedDate).toEqual("");
     });
 
     it("should be empty if all elements are not supplied", function () {
-        var formattedDate = Campervibe.Shared.Datepicker.calculateFormattedDate(null, null, null);
+        var formattedDate = CampervibeBooking.Shared.Datepicker.calculateFormattedDate(null, null, null);
         expect(formattedDate).toEqual("");
     });
 });
@@ -44,7 +44,7 @@ describe("Shared.Datepicker.calculateFormattedDate", function () {
 describe(".date-picker-container select change event", function () {
     beforeEach(function () {
         setUpHtmlFixture();
-        Campervibe.Shared.Datepicker.initialize();
+        CampervibeBooking.Shared.Datepicker.initialize();
     });
 
     afterEach(function () {

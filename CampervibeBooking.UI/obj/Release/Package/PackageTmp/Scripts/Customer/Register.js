@@ -1,4 +1,4 @@
-﻿Campervibe.Customer.Register = function () {
+﻿CampervibeBooking.Customer.Register = function () {
 
     var initialize = function () {
 
@@ -24,5 +24,5 @@
 
 
 $(document).ready(function () {
-    Campervibe.Customer.Register.initialize();
+    CampervibeBooking.Customer.Register.initialize();
 });

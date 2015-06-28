@@ -1,4 +1,4 @@
-﻿Campervibe.Shared.TickBoxList = function () {
+﻿CampervibeBooking.Shared.TickBoxList = function () {
 
     var initialize = function () {
 
@@ -28,9 +28,9 @@
 } ();
 
 (function ($) {
-    Campervibe.Shared.TickBoxList.setupValidators();
+    CampervibeBooking.Shared.TickBoxList.setupValidators();
 } (jQuery));
 
 $(document).ready(function () {
-    Campervibe.Shared.TickBoxList.initialize();
+    CampervibeBooking.Shared.TickBoxList.initialize();
 });

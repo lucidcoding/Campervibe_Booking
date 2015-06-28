@@ -1,4 +1,4 @@
-﻿Campervibe.Booking.Make = function () {
+﻿CampervibeBooking.Booking.Make = function () {
 
     var initialize = function () {
 
@@ -78,5 +78,5 @@
 
 
 $(document).ready(function () {
-    Campervibe.Booking.Make.initialize();
+    CampervibeBooking.Booking.Make.initialize();
 });

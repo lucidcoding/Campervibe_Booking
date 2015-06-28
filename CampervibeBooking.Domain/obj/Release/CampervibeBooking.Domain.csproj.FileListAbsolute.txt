@@ -1,0 +1,6 @@
+C:\Code\Campervibe_Booking\CampervibeBooking.Domain\bin\Release\CampervibeBooking.Domain.dll.config
+C:\Code\Campervibe_Booking\CampervibeBooking.Domain\bin\Release\CampervibeBooking.Domain.dll
+C:\Code\Campervibe_Booking\CampervibeBooking.Domain\bin\Release\CampervibeBooking.Domain.pdb
+C:\Code\Campervibe_Booking\CampervibeBooking.Domain\obj\Release\CampervibeBooking.Domain.csprojResolveAssemblyReference.cache
+C:\Code\Campervibe_Booking\CampervibeBooking.Domain\obj\Release\CampervibeBooking.Domain.dll
+C:\Code\Campervibe_Booking\CampervibeBooking.Domain\obj\Release\CampervibeBooking.Domain.pdb

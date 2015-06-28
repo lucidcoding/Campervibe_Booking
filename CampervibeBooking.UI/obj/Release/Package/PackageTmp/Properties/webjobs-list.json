@@ -2,7 +2,7 @@
   "$schema": "http://schemastore.org/schemas/json/webjobs-list.json",
   "WebJobs": [
     {
-      "filePath": "../Campervibe.WebJob/Campervibe.WebJob.csproj"
+      "filePath": "../CampervibeBooking.WebJob/CampervibeBooking.WebJob.csproj"
     }
   ]
 }

@@ -1,4 +1,4 @@
-﻿Campervibe.Shared.Validation = function () {
+﻿CampervibeBooking.Shared.Validation = function () {
 
     var initializeValidationErrorLinks = function () {
 
@@ -69,5 +69,5 @@
 } ();
 
 $(document).ready(function () {
-    Campervibe.Shared.Validation.initialize();
+    CampervibeBooking.Shared.Validation.initialize();
 });

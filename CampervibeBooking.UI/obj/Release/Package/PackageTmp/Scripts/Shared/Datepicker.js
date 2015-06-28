@@ -1,4 +1,4 @@
-﻿Campervibe.Shared.Datepicker = function () {
+﻿CampervibeBooking.Shared.Datepicker = function () {
 
     var calculateFormattedDate = function (selectedDayValue, selectedMonthValue, selectedYearValue) {
 
@@ -116,9 +116,9 @@
 } ();
 
 (function ($) {
-    Campervibe.Shared.Datepicker.setupValidators();
+    CampervibeBooking.Shared.Datepicker.setupValidators();
 } (jQuery));
 
 $(document).ready(function () {
-    Campervibe.Shared.Datepicker.initialize();
+    CampervibeBooking.Shared.Datepicker.initialize();
 });

@@ -1,6 +1,6 @@
 ﻿@using System.Data.Entity.Core.Objects
-@using Campervibe.External.UI.Extensions
-@model Campervibe.External.UI.ViewModels.Booking.MakeViewModel
+@using CampervibeBooking.UI.Extensions
+@model CampervibeBooking.UI.ViewModels.Booking.MakeViewModel
 
 @{
     ViewBag.Title = "Book a Vehicle";
@@ -10,7 +10,7 @@
 
 @using (Html.BeginForm("Make", "Booking", FormMethod.Post, new { role = "form", @class = "form-horizontal" }))
 {
-    @Html.AntiForgeryToken()
+    @*@Html.AntiForgeryToken()*@
     @Html.Partial("_ValidationSummary", Html.ViewData.ModelState)
     <div class="form-group">
         @Html.LabelFor(model => model.VehicleId, new { @class = "control-label col-sm-3" })

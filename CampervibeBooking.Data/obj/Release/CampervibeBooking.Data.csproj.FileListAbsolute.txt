@@ -1,0 +1,14 @@
+C:\Code\Campervibe_Booking\CampervibeBooking.Data\bin\Release\CampervibeBooking.Data.dll.config
+C:\Code\Campervibe_Booking\CampervibeBooking.Data\bin\Release\CampervibeBooking.Data.dll
+C:\Code\Campervibe_Booking\CampervibeBooking.Data\bin\Release\CampervibeBooking.Data.pdb
+C:\Code\Campervibe_Booking\CampervibeBooking.Data\bin\Release\CampervibeBooking.Domain.dll
+C:\Code\Campervibe_Booking\CampervibeBooking.Data\bin\Release\EntityFramework.dll
+C:\Code\Campervibe_Booking\CampervibeBooking.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Code\Campervibe_Booking\CampervibeBooking.Data\bin\Release\Ninject.dll
+C:\Code\Campervibe_Booking\CampervibeBooking.Data\bin\Release\CampervibeBooking.Domain.pdb
+C:\Code\Campervibe_Booking\CampervibeBooking.Data\bin\Release\EntityFramework.xml
+C:\Code\Campervibe_Booking\CampervibeBooking.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Code\Campervibe_Booking\CampervibeBooking.Data\bin\Release\Ninject.xml
+C:\Code\Campervibe_Booking\CampervibeBooking.Data\obj\Release\CampervibeBooking.Data.csprojResolveAssemblyReference.cache
+C:\Code\Campervibe_Booking\CampervibeBooking.Data\obj\Release\CampervibeBooking.Data.dll
+C:\Code\Campervibe_Booking\CampervibeBooking.Data\obj\Release\CampervibeBooking.Data.pdb

@@ -1,10 +1,10 @@
 ﻿Campervibe = {};
-Campervibe.Layout = {};
-Campervibe.Customer = {};
-Campervibe.Booking = {};
-Campervibe.Shared = {};
+CampervibeBooking.Layout = {};
+CampervibeBooking.Customer = {};
+CampervibeBooking.Booking = {};
+CampervibeBooking.Shared = {};
 
-Campervibe.Shared.Layout = function () {
+CampervibeBooking.Shared.Layout = function () {
 
     var initialize = function () {
         $("form").each(function (index, element) {
@@ -22,5 +22,5 @@ Campervibe.Shared.Layout = function () {
 } ();
 
 $(document).ready(function () {
-    Campervibe.Shared.Layout.initialize();
+    CampervibeBooking.Shared.Layout.initialize();
 });
