@@ -67,7 +67,7 @@ namespace CampervibeBooking.UI.ViewModelMappers.Booking
             var request = new MakeBookingRequest();
             request.StartDate = viewModel.StartDate;
             request.EndDate = viewModel.EndDate;
-            //request.Vehicle = viewModel.VehicleId.HasValue ? _vehicleRepository.GetById(viewModel.VehicleId.Value) : null;
+            request.VehicleId = viewModel.VehicleId;
             var username = _userProvider.GetUsername();
             return request;
         }

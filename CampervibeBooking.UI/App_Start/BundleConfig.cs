@@ -19,7 +19,7 @@ namespace CampervibeBooking.UI
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                         "~/Scripts/bootstrap.js"));
 
-            bundles.Add(new ScriptBundle("~/bundles/campervibe").Include(
+            bundles.Add(new ScriptBundle("~/bundles/campervibebooking").Include(
                         "~/Scripts/Shared/Layout.js",
                         "~/Scripts/Shared/Datepicker.js",
                         "~/Scripts/Shared/Validation.js"));
@@ -30,7 +30,7 @@ namespace CampervibeBooking.UI
             bundles.Add(new ScriptBundle("~/bundles/Customer/Register").Include(
                         "~/Scripts/Customer/Register.js"));
 
-            bundles.Add(new StyleBundle("~/Content/campervibe").Include("~/Content/CampervibeBooking.css"));
+            bundles.Add(new StyleBundle("~/Content/campervibebooking").Include("~/Content/campervibebooking.css"));
 
             bundles.Add(new StyleBundle("~/Content/bootstrap").Include(
                         "~/Content/bootstrap.css",

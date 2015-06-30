@@ -1,4 +1,4 @@
-﻿Campervibe = {};
+﻿CampervibeBooking = {};
 CampervibeBooking.Layout = {};
 CampervibeBooking.Customer = {};
 CampervibeBooking.Booking = {};

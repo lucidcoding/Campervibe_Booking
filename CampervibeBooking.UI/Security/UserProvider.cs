@@ -11,5 +11,10 @@ namespace CampervibeBooking.UI.Security
         {
             return HttpContext.Current.User.Identity.Name;
         }
+
+        public Guid GetId()
+        {
+            return Guid.NewGuid();
+        }
     }
 }
