@@ -11,6 +11,12 @@ namespace CampervibeBooking.UI.ViewModels.Booking
 {
     public class MakeViewModel
     {
+        public SelectList CustomerOptions { get; set; }
+
+        [DisplayName("Customer")]
+        [Required]
+        public Guid? CustomerId { get; set; }
+
         public SelectList VehicleOptions { get; set; }
 
         [DisplayName("Vehicle")]

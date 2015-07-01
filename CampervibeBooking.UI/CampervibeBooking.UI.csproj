@@ -213,6 +213,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Security\IUserProvider.cs" />
     <Compile Include="Security\UserProvider.cs" />
+    <Compile Include="ServiceProxies\Customer\CustomerServiceModel.cs" />
+    <Compile Include="ServiceProxies\Customer\FakeCustomerServiceProxy.cs" />
+    <Compile Include="ServiceProxies\Customer\ICustomerServiceProxy.cs" />
     <Compile Include="ServiceProxies\Vehicle\IVehicleServiceProxy.cs" />
     <Compile Include="ServiceProxies\Vehicle\VehicleServiceModel.cs" />
     <Compile Include="ServiceProxies\Vehicle\VehicleServiceProxy.cs" />

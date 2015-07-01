@@ -20,6 +20,7 @@ namespace CampervibeBooking.UI.App_Start
     using CampervibeBooking.UI.Logging;
     using CampervibeBooking.Domain.InfrastructureContracts;
     using CampervibeBooking.UI.ServiceProxies.Vehicle;
+    using CampervibeBooking.UI.ServiceProxies.Customer;
 
     public static class NinjectWebCommon 
     {
@@ -77,6 +78,7 @@ namespace CampervibeBooking.UI.App_Start
             kernel.Bind<IGetPendingForVehicleViewModelMapper>().To<GetPendingForVehicleViewModelMapper>();
             kernel.Bind<IUserProvider>().To<UserProvider>();
             kernel.Bind<IIndexViewModelMapper>().To<IndexViewModelMapper>();
+            kernel.Bind<ICustomerServiceProxy>().To<FakeCustomerServiceProxy>();
             kernel.Bind<IVehicleServiceProxy>().To<VehicleServiceProxy>();
             kernel.BindFilter<EntityFrameworkWriteContextFilter>(FilterScope.Action, 1000).WhenActionMethodHas<EntityFrameworkWriteContextAttribute>();
             kernel.BindFilter<EntityFrameworkReadContextFilter>(FilterScope.Action, 1000).WhenActionMethodHas<EntityFrameworkReadContextAttribute>();
