@@ -6,9 +6,7 @@
 
 <h1>Index</h1>
 
-<p>Bookings for @Model.CustomerName</p>
-
-<table class="standard">
+<table class="table ">
     <thead>
         <tr>
             <th>
@@ -22,6 +20,9 @@
             </th>
             <th>
                 Vehicle
+            </th>
+            <th>
+                Customer
             </th>
             <th>
                 Total
@@ -42,7 +43,10 @@
                 @String.Format("{0:dd/MM/yyyy}", booking.EndDate)
             </td>
             <td>
-                @booking.MakeAndModel
+                @booking.VehicleName
+            </td>
+            <td>
+                @booking.CustomerName
             </td>
             <td>
                 @String.Format("£{0:#####0.00}", booking.Total)

@@ -11,7 +11,8 @@ namespace CampervibeBooking.UI.ViewModels.Booking
         public string BookingNumber { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        public string MakeAndModel { get; set; }
+        public string VehicleName { get; set; }
+        public string CustomerName { get; set; }
         public decimal Total { get; set; }
     }
 }
