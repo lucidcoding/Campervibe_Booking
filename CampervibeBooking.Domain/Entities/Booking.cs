@@ -61,9 +61,9 @@ namespace CampervibeBooking.Domain.Entities
             booking.EndDate = request.EndDate.Value;
             booking.CustomerId = request.CustomerId.Value;
             booking.CreatedById = request.UserId.Value;
+            booking._createdOn = DateTime.Now;
             booking.VehicleId = request.VehicleId.Value;
             var totalDays = (request.EndDate.Value - request.StartDate.Value).Days + 1;
-            //booking.Total = totalDays * request.Vehicle.PricePerDay;
             return booking;
         }
     }

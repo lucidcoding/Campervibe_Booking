@@ -57,3 +57,4 @@ C:\Code\Campervibe_Booking\CampervibeBooking.WebJob\bin\Debug\CampervibeBooking.
 C:\Code\Campervibe_Booking\CampervibeBooking.WebJob\bin\Debug\CampervibeBooking.WebJob.pdb
 C:\Code\Campervibe_Booking\CampervibeBooking.WebJob\obj\Debug\CampervibeBooking.WebJob.exe
 C:\Code\Campervibe_Booking\CampervibeBooking.WebJob\obj\Debug\CampervibeBooking.WebJob.pdb
+C:\Code\Campervibe_Booking\CampervibeBooking.WebJob\obj\Debug\CampervibeBooking.WebJob.csprojResolveAssemblyReference.cache
